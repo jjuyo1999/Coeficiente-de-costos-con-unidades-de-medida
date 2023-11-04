@@ -1,0 +1,27 @@
+Nombre de la Restriccion,Lado izquierdo,Condicion,Lado derecho
+restriccion_capacidad_maxima,a1*x11+a2*x21+a3*x31+a4*x41+a5*x51+a6*x61+a7*x71+a8*x81+a9*x91+a10*x101,<=,0.8
+restricion_nivel_1_ancho,ancho[0]*x11+ancho[1]*x21+ancho[2]*x31+ancho[3]*x41+ancho[4]*x51+ancho[5]*x61+ancho[6]*x71+ancho[7]*x81+ancho[8]*x91+ancho[9]*x101,<=,0.8
+restricion_nivel_2_ancho,ancho[0]*x12+ancho[1]*x22+ancho[2]*x32+ancho[3]*x42+ancho[4]*x52+ancho[5]*x62+ancho[6]*x72+ancho[7]*x82+ancho[8]*x92+ancho[9]*x102,<=,0.8
+restricion_nivel_3_ancho,ancho[0]*x13+ancho[1]*x23+ancho[2]*x33+ancho[3]*x43+ancho[4]*x53+ancho[5]*x63+ancho[6]*x73+ancho[7]*x83+ancho[8]*x93+ancho[9]*x103,<=,0.8
+restricion_nivel_4_ancho,ancho[0]*x14+ancho[1]*x24+ancho[2]*x34+ancho[3]*x44+ancho[4]*x54+ancho[5]*x64+ancho[6]*x74+ancho[7]*x84+ancho[8]*x94+ancho[9]*x104,<=,0.8
+restricion_nivel_5_ancho,ancho[0]*x15+ancho[1]*x25+ancho[2]*x35+ancho[3]*x45+ancho[4]*x55+ancho[5]*x65+ancho[6]*x75+ancho[7]*x85+ancho[8]*x95+ancho[9]*x105,<=,0.8
+restricion_nivel_1_largo,largo[0]*x11+largo[1]*x21+largo[2]*x31+largo[3]*x41+largo[4]*x51+largo[5]*x61+largo[6]*x71+largo[7]*x81+largo[8]*x91+largo[9]*x101,<=,17.3
+restricion_nivel_2_largo,largo[0]*x12+largo[1]*x22+largo[2]*x32+largo[3]*x42+largo[4]*x52+largo[5]*x62+largo[6]*x72+largo[7]*x82+largo[8]*x92+largo[9]*x102,<=,17.3
+restricion_nivel_3_largo,largo[0]*x13+largo[1]*x23+largo[2]*x33+largo[3]*x43+largo[4]*x53+largo[5]*x63+largo[6]*x73+largo[7]*x83+largo[8]*x93+largo[9]*x103,<=,17.3
+restricion_nivel_4_largo,largo[0]*x14+largo[1]*x24+largo[2]*x34+largo[3]*x44+largo[4]*x54+largo[5]*x64+largo[6]*x74+largo[7]*x84+largo[8]*x94+largo[9]*x104,<=,17.3
+restricion_nivel_5_largo,largo[0]*x15+largo[1]*x25+largo[2]*x35+largo[3]*x45+largo[4]*x55+largo[5]*x65+largo[6]*x75+largo[7]*x85+largo[8]*x95+largo[9]*x105,<=,17.3
+restricion_nivel_1_alto,alto[0]*x11+alto[1]*x21+alto[2]*x31+alto[3]*x41+alto[4]*x51+alto[5]*x61+alto[6]*x71+alto[7]*x81+alto[8]*x91+alto[9]*x101,<=,1
+restricion_nivel_2_alto,alto[0]*x12+alto[1]*x22+alto[2]*x32+alto[3]*x42+alto[4]*x52+alto[5]*x62+alto[6]*x72+alto[7]*x82+alto[8]*x92+alto[9]*x102,<=,1
+restricion_nivel_3_alto,alto[0]*x13+alto[1]*x23+alto[2]*x33+alto[3]*x43+alto[4]*x53+alto[5]*x63+alto[6]*x73+alto[7]*x83+alto[8]*x93+alto[9]*x103,<=,1
+restricion_nivel_4_alto,alto[0]*x14+alto[1]*x24+alto[2]*x34+alto[3]*x44+alto[4]*x54+alto[5]*x64+alto[6]*x74+alto[7]*x84+alto[8]*x94+alto[9]*x104,<=,1
+restricion_nivel_5_alto,alto[0]*x15+alto[1]*x25+alto[2]*x35+alto[3]*x45+alto[4]*x55+alto[5]*x65+alto[6]*x75+alto[7]*x85+alto[8]*x95+alto[9]*x105,<=,1
+snacks_ubicacion,x11+x12+x13+x14+x15,>=,1
+alimento_infantil_ubicacion,x21+x22+x23+x24+x25,>=,1
+productos_domésticos_ubicacion,x31+x32+x33+x34+x35,>=,1
+ropa_ubicacion,x41+x42+x43+x44+x45,>=,1
+material_de_oficina_ubicacion,x51+x52+x53+x54+x55,>=,1
+frutas_ubicacion,x61+x62+x63+x64+x65,>=,1
+cereales_ubicacion,x71+x72+x73+x74+x75,>=,1
+cuidado_personal_ubicacion.,x81+x82+x83+x84+x85,>=,1
+bebidas_ubicacion,x91+x92+x93+x94+x95,>=,1
+cosméticos_ubicacion,x101+x102+x103+x104+x105,>=,1
